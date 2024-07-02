@@ -26,18 +26,24 @@ def private_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="💠 𝐀𝙳𝙳 𝙼𝙴 𝙸𝙽 𝙽𝙴𝚆 𝙶𝚁𝙾𝚄𝙿𝚂 💠",
+                text="✚𝐀𝐃𝐃 𝐌𝐄 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 𝐁𝐀𝐁𝐘✚",
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
         [
-            InlineKeyboardButton(text="𝐆𝚁𝙾𝚄𝙿✨", url=config.SUPPORT_CHAT),
-            InlineKeyboardButton(text="𝐌ᴏʀᴇ🥀", url=config.SUPPORT_CHANNEL),
+            InlineKeyboardButton(text="🦋ɢʀᴏᴜᴘ🦋", url=config.SUPPORT_CHAT),
+            InlineKeyboardButton(text="💠ᴄʜᴀɴɴᴇʟ💠", url=config.SUPPORT_CHANNEL),
         ],
         [
             InlineKeyboardButton(
-                text="۞ 𝐅𝙴𝙰𝚃𝚄𝚁𝙴𝚂 ۞", callback_data="settings_back_helper"
+                text=" 🤦‍♂️ʜᴇʟᴘ🤦‍♂️ ", callback_data="settings_back_helper"
             )
+        ],
+        [
+            InlineKeyboardButton(
+                        "✌ʏᴏᴜᴛᴜʙᴇ✌", url=f"https://www.youtube.com/@allexamgkgspractice"),
+            InlineKeyboardButton(
+                        " 😍ᴄᴜᴛᴇ ᴏᴡɴᴇʀ😍 ", url=f"https://t.me/suraj_saini93")
         ],
     ]
     return buttons
