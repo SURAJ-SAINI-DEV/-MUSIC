@@ -11,7 +11,7 @@ API_ID = int(getenv("12380656"))
 API_HASH = getenv("d927c13beaaf5110f25c505b7c071273")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("7157195596:AAHq-QYys4KpTFmetxK9uS25sKbhzh8Piy0")
 BOT_USERNAME = getenv("BOT_USERNAME" , "deepika91_bot")
 
 # Get your mongo url from cloud.mongodb.com
@@ -118,7 +118,7 @@ CLEANMODE_DELETE_MINS = int(
 )  # Remember to give value in Seconds
 
 # Get your pyrogram v2 session from @VIP_STRING_ROBOT on Telegram
-STRING1 = getenv("BQAXcoGTy6xJZaZn66tNmEWZmig1zsG5bCR0kaPCrMCLiS1E3MmeoRz4Y9c_n90XS-YKIQ6C44wUeE8y5hHCmaJSynK1PBa8p2SeBOOhZ07_rMtqiiyg0lCN2SCOb8zKbejg60myVWbHwI9VIZF_iX2Kqah2kjL5BhxrWl9mAZsib36z9MSAo-G9Wz4ovQU-KoR1UsfYXMrLa_p5XvErTzQQvrKvoOzHOy93ycqmmJ8QnyZzjUkkPN_TlwWqNfZWvQjzTZfJqvAJ2HiQkG1XpkF-tGmMa0Sw1yvhakEAbNV9A30-ZzmznpHQ6TfEyi-OX1Ntgibwnf9W56OWRx8_ifUpAAAAAWnM1jAA",)
+STRING1 = getenv ("BQCYV0yW261N_6ZkUdAwyYOl3YQrvjh2zHfVg3X7THRY8v1kW39MKkTn1cSSh4vNwc53N6NoU3DfaFT5GzWo9dboZcxoM4Xnj8Xy9bySdxW59cr98i4Ll5ymm5JEOZ947a2aUD6zeaH4B4zA03kmRpnA4ZRQQOdISAOYnSh6yAVYIrrAWmfrLoxF28stjacvs2HqtSGWYx2xBE0ddanPh-YrVNr8N_N_y6nbJ_exet6U-7rqDMlZHCx0xawWj4wjqIj8InfXST4uhz6axQo4f2Vg_jaYwFvOCXDLtdn4a5Wpld8XBCzISlazW726FykfXcHyD8h3uGAvHSHPZklVu0ZcAAAAAXJtnkYA",)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
