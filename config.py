@@ -7,15 +7,14 @@ from pyrogram import filters
 
 load_dotenv()
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("12380656"))
-API_HASH = getenv("d927c13beaaf5110f25c505b7c071273")
+API_ID = int(getenv("API_ID"))
+API_HASH = getenv("API_HASH")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("7157195596:AAHq-QYys4KpTFmetxK9uS25sKbhzh8Piy0")
-BOT_USERNAME = getenv("BOT_USERNAME" , "deepika91_bot")
+BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("mongodb+srv://Surajbot:surajbot@surajbot.qv1brhu.mongodb.net/?retryWrites=true&w=majority",)
+MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 16000))
 
@@ -32,7 +31,7 @@ EXTRA_PLUGINS = getenv(
 
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/SURAJ-SAINI-DEV/-MUSIC-PLUGIN",
+    "https://github.com/SURAJ-SAINI-DEV/-MUSIC",
 )
 # Fill here the external plugins repo where plugins that you want to load
 
@@ -43,10 +42,10 @@ EXTRA_PLUGINS_FOLDER = getenv("EXTRA_PLUGINS_FOLDER", "plugins")
 
 
 LOGGER_ID = int(getenv("LOGGER_ID"))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002032619938"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001443337704"))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("6460424107"))
+OWNER_ID = int(getenv("OWNER_ID"))
 
 # Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -63,8 +62,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/quizbys")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+g5iHy39RxQE0Nzdl")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/VIP_CREATORS")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TG_FRIENDSS")
 
 # Maximum Limit Allowed for users to save playlists on bot's server
 SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "100"))
@@ -82,7 +81,7 @@ AUTO_LEAVING_ASSISTANT = False
 
 # Auto Gcast/Broadcast Handler, Write:- [On / Off] During Hosting, Dont Do
 # anything here.)
-AUTO_GCAST = os.getenv("AUTO_GCAST")
+AUTO_GCAST = os.getenv("AUTO_GCAST", "Off")
 
 # Auto Broadcast Message That You Want Use In Auto Broadcast In All Groups.
 AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", "")
@@ -118,7 +117,7 @@ CLEANMODE_DELETE_MINS = int(
 )  # Remember to give value in Seconds
 
 # Get your pyrogram v2 session from @VIP_STRING_ROBOT on Telegram
-STRING1 = getenv ("BQCYV0yW261N_6ZkUdAwyYOl3YQrvjh2zHfVg3X7THRY8v1kW39MKkTn1cSSh4vNwc53N6NoU3DfaFT5GzWo9dboZcxoM4Xnj8Xy9bySdxW59cr98i4Ll5ymm5JEOZ947a2aUD6zeaH4B4zA03kmRpnA4ZRQQOdISAOYnSh6yAVYIrrAWmfrLoxF28stjacvs2HqtSGWYx2xBE0ddanPh-YrVNr8N_N_y6nbJ_exet6U-7rqDMlZHCx0xawWj4wjqIj8InfXST4uhz6axQo4f2Vg_jaYwFvOCXDLtdn4a5Wpld8XBCzISlazW726FykfXcHyD8h3uGAvHSHPZklVu0ZcAAAAAXJtnkYA",)
+STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
